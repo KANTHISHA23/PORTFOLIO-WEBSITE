@@ -1,0 +1,73 @@
+.slide-in {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.slide-in.animate {
+    opacity: 1;
+    transform: translateX(0);
+}
+.slider-wrapper {
+    max-width: 80%;
+    margin:0;
+    padding:0;
+    width: 90%;
+}
+.slider-wrapper p{
+    padding: 0px 35px;
+    display:flex;
+    justify-content: center;
+    text-align:center;
+    margin: 25px auto;
+    max-width: 700px;
+    line-height: 1.6;
+}
+.achievement-slide {
+    background-color: black;
+    padding: 20px 4px;
+    border-radius: 10px;
+    text-align: center;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    margin: 0 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.achievement-slide:hover {
+    box-shadow: 0px 0px 25px rgba(120, 120, 120, 0.6);
+    transform: scale(1.05);
+    transform: translateY(-3px);
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.achievement-slide img {
+    width: 170px;
+    height: 170px;
+    object-fit: contain;
+    margin: 0 auto 10px;
+}
+
+.view-certificate {
+    display: inline-block;
+    margin: 20px;
+    padding: 6px 12px;
+    background-color: #0077cc;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.85rem;
+    transition: background-color 0.3s ease;
+}
+.view-certificate span {
+    margin-bottom: 2px;
+    padding: 5px;
+}
+.achievement-slide a:hover {
+    background-color: #005fa3;
+    color: white;
+    transform: scale(1.05);
+}

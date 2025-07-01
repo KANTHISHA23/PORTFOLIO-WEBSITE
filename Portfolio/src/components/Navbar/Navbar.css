@@ -1,0 +1,116 @@
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: rgba(5, 0, 0, 0.462);
+    padding:2.5rem 3rem;
+    box-sizing: border-box;
+}
+
+.logo img{
+    width:130px;
+    height: auto;
+    object-fit: contain;
+}
+.nav-btns {
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap;
+}
+
+.nav-btns button {
+    background-color: transparent;
+    border: 2px solid #F76C6C;
+    color: #F76C6C;
+    border-radius: 6px;
+    padding: 0.6rem 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+
+.nav-btns button:hover {
+    background-color: #F76C6C;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.3);
+}
+
+
+.nav-btns .cta {
+    background-color: #F76C6C;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgba(247, 108, 108, 0.6);
+    margin-right: 2rem;
+}
+
+@media screen and (min-width: 769px) {
+  .navbar{
+    height:7vh;
+  }
+  .navbar .cta{
+    padding: 13px 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+    .navbar{
+        box-sizing: border-box;
+        height:1rem;
+    }
+    .nav-btns {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .nav-btns button {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    .nav-btns .cta {
+        width: auto;
+        font-size:13px;
+        margin-right: 2rem;
+        padding:5px 12px;
+    }
+    .logo img{
+        width:90px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar {
+        box-sizing: border-box;
+        height:0.1rem;
+    }
+
+    .nav-btns {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-btns button {
+        padding: 2px 8px;
+        font-size: 8px;
+    }
+
+    .nav-btns .cta {
+        width: auto;
+        font-size: 9px;
+        margin-right:5rem;
+        padding:3px 10px;
+    }
+
+    .logo img{
+        width:65px;
+    }
+}

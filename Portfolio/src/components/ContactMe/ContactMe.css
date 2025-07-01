@@ -1,0 +1,140 @@
+.slide-in {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.slide-in.animate {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.contactme {
+    color: #ccc;
+    padding: 60px 40px;
+}
+
+.wrapper3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+}
+
+.left-coln {
+    flex: 1;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    padding: 3% 0;
+    gap: 10px;
+}
+
+.right-coln {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-width: 300px;
+    padding: 3% 0;
+}
+
+.left-coln h2 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.left-coln p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 1000px;
+    color: #ccc;
+}
+
+.left-coln a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #ccc;
+    background-color: transparent;
+    transition: color 0.5s ease, transform 0.3s ease;
+}
+
+.left-coln a:hover {
+    color: #305fd1;
+    transform: scale(1.01);
+}
+
+.right-coln label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #ccc;
+}
+
+.right-coln input,
+.right-coln textarea {
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 2rem;
+    border: 1px solid #333;
+    border-radius: 6px;
+    background-color: #0f1117;
+    color: #ccc;
+    font-size: 16px;
+}
+
+.right-coln textarea {
+    min-height: 100px;
+}
+
+.right-coln button {
+    width: 90%;
+    padding: 12px;
+    background-color: #407aef;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.right-coln button:hover {
+    background-color: #2851b1;
+}
+.right-coln button:active {
+    transform: scale(0.90);
+    background-color: #13275b;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper3 {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .left-coln,
+    .right-coln {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .right-coln input,
+    .right-coln textarea {
+        width: 80%;
+    }
+
+    .view-resume {
+        justify-content: flex-start;
+    } }
