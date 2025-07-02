@@ -1,9 +1,9 @@
 # 💼 Personal Portfolio Website – Isha Kanth
 
-Welcome to the source code of my personal portfolio website — a handcrafted showcase of my skills, projects, and passion for front-end development. Built with modern web tools and clean design principles to highlight both aesthetics and functionality.
+Welcome to the source code of my personal portfolio website — a handcrafted showcase of my skills, projects, and passion for web development. Built with modern web tools and clean design principles to highlight both aesthetics and functionality.
 
 ### 🚀 Live Site
-[🌐 Visit Portfolio] (   )
+[🌐 Visit Portfolio](https://ishakanth.netlify.app/)
 📌 Hosted with: Netlify
 ---
 
@@ -27,23 +27,8 @@ Welcome to the source code of my personal portfolio website — a handcrafted sh
 | JSX            | Animate.css       |               |
 | Vite           | Toastify          |               |
 | React Icons    | Responsive Design |               |
+| GetForm        |                   |               |
 
----
-
-## 📂 Folder Structure
-
-src/
-├── assets/               // Images, icons, logos
-├── components/           // Reusable components (Navbar, About, Skills, etc.)
-│   ├── About/
-│   ├── Skills/
-│   ├── Projects/
-│   ├── Contact/
-│   └── ...
-├── App.jsx               // Main layout
-├── main.jsx              // ReactDOM entry point
-├── firebase.js           // Firebase configuration
-└── index.css             // Global styles
 
 ---
 
