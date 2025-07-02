@@ -85,7 +85,7 @@ const ContactMe = () => {
                 }}
               />
             </span>
-            linkedin.com/in/isha-kanth-99433925a
+            linkedin.com/in/isha-kanth
           </a>
           <a target='_blank' href='https://github.com/KANTHISHA23'>
             <span>

@@ -6,7 +6,6 @@
      position: relative;
      display: flex;
      justify-content: center;
-     text-align:center;
      width:100%;
      min-height: 100vh; 
      height:auto;
@@ -46,6 +45,5 @@
  .content2 p {
      font-size: 1.1rem;
      color: #ccc;
-     margin: 40px;
      line-height: 1.6; 
 }

@@ -95,10 +95,6 @@
     margin-top: 2rem; 
 }
 
-.wraper2{
-    margin-top:10rem;
-}
-
 @media (min-width: 1024px) {
     .about-section {
         flex-direction: row;

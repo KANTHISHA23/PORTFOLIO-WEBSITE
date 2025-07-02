@@ -9,7 +9,7 @@
     left: 0;
     z-index: 1000;
     background-color: rgba(5, 0, 0, 0.462);
-    padding:2.5rem 3rem;
+    padding:2.5rem 1rem;
     box-sizing: border-box;
 }
 
@@ -93,21 +93,16 @@
         height:0.1rem;
     }
 
-    .nav-btns {
-        justify-content: center;
-        align-items: center;
-    }
-
     .nav-btns button {
-        padding: 2px 8px;
-        font-size: 8px;
+        padding: 2px 6px;
+        font-size: 5px;
     }
 
     .nav-btns .cta {
         width: auto;
-        font-size: 9px;
-        margin-right:5rem;
-        padding:3px 10px;
+        font-size: 6px;
+        margin-right:10rem;
+        padding:3px 5px;
     }
 
     .logo img{
